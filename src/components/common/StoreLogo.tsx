@@ -39,9 +39,12 @@ export const StoreLogo: React.FC<StoreLogoProps> = ({
       );
     }
 
+    const baseUrl = ((import.meta as unknown as { env?: { BASE_URL?: string } }).env?.BASE_URL) || './';
+    const logoSrc = `${baseUrl}logo.png`.replace(/\/\//g, '/');
+
     return (
       <img
-        src="/logo.png"
+        src={logoSrc}
         alt="Sanjida Food Store Official Logo"
         referrerPolicy="no-referrer"
         loading="eager"
