@@ -1,0 +1,6 @@
+{
+  "name": "Sanjida Food Store & Private Admin Panel",
+  "description": "Premium e-commerce food and grocery store with an exclusive, secure private administration management portal for sanjidakhatun9880@gmail.com.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
